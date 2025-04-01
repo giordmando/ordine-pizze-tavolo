@@ -5,7 +5,7 @@ from backend.src.core.pizza import Pizza
 
 class Ordine:
     """
-    Classe che gestisce un ordine per un tavolo
+    Classe che rappresenta un ordine per un tavolo
     """
     def __init__(self, numero_tavolo: int, numero_ordine: int, cliente: Cliente, num_persone: int):
         self.__numero_tavolo = numero_tavolo
